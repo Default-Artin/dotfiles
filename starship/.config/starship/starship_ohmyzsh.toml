@@ -1,0 +1,12 @@
+format = """$character[ ]($style)$directory$git_branch$git_status"""
+
+[directory]
+truncation_length = 1
+style = "bold blue"
+
+[git_branch]
+format = ' [git:\(]($style)[$branch(:$remote_branch)](red)[\)]($style) '
+
+[character]
+success_symbol = '[](green)'
+error_symbol = '[](red)'

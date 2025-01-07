@@ -1,0 +1,15 @@
+format = """[artin](green)[@linux ]($style)$directory$git_branch$git_status$character"""
+
+[directory]
+truncation_length = 0
+style = "green"
+#truncation_symbol = ".../"
+truncate_to_repo = false
+repo_root_style = "bold green"
+
+[git_branch]
+format = ' [\($branch(:$remote_branch)\)](white) '
+
+[character]
+success_symbol = '[>](bold green)'
+error_symbol = '[\[1\]>](red)'
