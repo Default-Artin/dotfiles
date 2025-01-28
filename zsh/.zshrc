@@ -137,6 +137,8 @@ function y() {
 }
 #---------------- yazi ---------------------
 
+export EDITOR=nvim
+
 #colorscript
 #colorscript -e fade
 colorscript -e zwaves
